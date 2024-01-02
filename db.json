@@ -1,0 +1,74 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Murugan",
+      "email": "Murugan@gmail.com",
+      "phone": "12345679",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Saran",
+      "email": "Saran@gmail.com",
+      "phone": "12345678",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "sourav",
+      "email": "sourav@gmail.com",
+      "phone": "123457777",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "sasi",
+      "email": "sasi@gmail.com",
+      "phone": "123456788",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "manoj",
+      "email": "manoj@gmail.com",
+      "phone": "12345678",
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "name": "john",
+      "email": "john@gmail.com",
+      "phone": "123456789",
+      "isActive": false
+    },
+    {
+      "id": 7,
+      "name": "Raja",
+      "email": "raja@gmail.com",
+      "phone": "12345678",
+      "isActive": false
+    },
+    {
+      "id": 8,
+      "name": "Murugan2",
+      "email": "Murugan2@gmail.com",
+      "phone": "12345678",
+      "isActive": false
+    },
+    {
+      "id": 9,
+      "name": "aadhi",
+      "email": "aadhi@gmail.com",
+      "phone": "12345678",
+      "isActive": false
+    },
+    {
+      "id": 10,
+      "name": "arun",
+      "email": "arun@gmail.com",
+      "phone": "12345678",
+      "isActive": false
+    }
+  ]
+}
