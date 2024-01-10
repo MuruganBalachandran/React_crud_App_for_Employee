@@ -31,7 +31,7 @@ const EmpList = () => {
   };
 
   useEffect(() => {
-    axios.get("   http://localhost:8000/employee")
+    axios.get("   http://localhost:8001/employee")
       .then((res) => {
         setEmpData(res.data);
       })
@@ -48,7 +48,7 @@ const EmpList = () => {
         </div>
         <div className="card-body">
           <div className="divbtn mb-3">
-            <Link to="employee/create" className="btn btn-success">
+            <Link to="employee/create" class="addnewbtn" className="btn btn-success">
               Add New (+)
             </Link>
           </div>

@@ -6,7 +6,7 @@ const EmpDetails = () => {
   const [empData, setEmpData] = useState({});
 
   useEffect(() => {
-    fetch(`   http://localhost:8000/employee/${empid}`)
+    fetch(`   http://localhost:8001/employee/${empid}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);

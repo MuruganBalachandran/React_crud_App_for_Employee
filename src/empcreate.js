@@ -17,7 +17,7 @@ const EmpCreate = () => {
     const empdata = { id, name, email, phone, isActive };
     console.log('Data to be sent:', empdata);
 
-    axios.post('   http://localhost:8000/employee', empdata)
+    axios.post('   http://localhost:8001/employee', empdata)
       .then((res) => {
         if (res.status !== 200) {
           throw new Error(`HTTP error! Status: ${res.status}`);

@@ -15,7 +15,7 @@ const EmpEdit = () => {
 
   useEffect(() => {
     axios
-      .get(`   http://localhost:8000/employee/${empid}`)
+      .get(`   http://localhost:8001/employee/${empid}`)
       .then((res) => {
         const resp = res.data;
         idChange(resp.id);
@@ -36,7 +36,7 @@ const EmpEdit = () => {
     console.log("Data to be sent:", empdata);
 
     axios
-      .put(`   http://localhost:8000/employee/${empid}`, empdata)
+      .put(`  http://localhost:8001/employee/${empid}`, empdata)
       .then((res) => {
         if (res.status !== 200) {
           throw new Error(`HTTP error! Status: ${res.status}`);
