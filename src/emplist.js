@@ -12,7 +12,7 @@ const EmpList = () => {
 
   const removeFunction = (id) => {
     if (window.confirm('Do you want to remove this account?')) {
-      axios.delete(`http://localhost:8000/employee/${id}`)
+      axios.delete(`http://localhost:8001/employee/${id}`)
         .then((res) => {
           if (res.status !== 200) {
             throw new Error(`HTTP error! Status: ${res.status}`);
